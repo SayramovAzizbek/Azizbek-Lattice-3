@@ -1,0 +1,596 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222 ;
+    color: white;
+}
+
+.container {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+/* Top Navbar */
+#top-navbar-three {
+    display: none;
+}
+
+.top-navbar-icons{
+    display: flex;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.top-navbar-contacts-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -25px;
+}
+
+.top-navbar-language, .top-navbar-gmail, .top-navbar-tel {
+    display: flex;
+    padding-right: 70px;
+    font-size: 12px;
+}
+
+.top-navbar-language-icon {
+    margin-top: 4px;
+}
+
+.top-navbar-language {
+    position: relative;
+    font-size: 15px;
+}
+
+.top-navbar-language a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-navbar-language:hover .top-navbar-language-more {
+    display: block;
+    opacity: 1;
+}
+
+.top-navbar-language-more {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: #222222;
+    list-style-type: none;
+    transform: translateX(100%);
+    transition: all .3s ease-in;
+    opacity: 0;
+    top: 0;
+    left:0;
+    padding: 0 20px;
+
+}
+
+/*  The end Top Navbar */
+/* Navbar section Laticce-3 */
+#navbar-head{
+    width: 100%;
+    position: absolute;
+    /* position: fixed; */
+    top: 45px;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.flexbox{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.680);
+    padding: 20px;
+}
+
+.navbar-head-list{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    font-size: 20px;
+    width: 35%;
+}
+
+.navbar-head-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.navbar-head-tel, .navbar-head-link {
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+
+.navbar-head-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-head-tel{
+    display: flex;
+    padding-right: 50px;
+    width: 35%;
+    justify-content: flex-end;
+}
+
+.navbar-head-tel a {
+    text-decoration: none;
+    color: white;
+}
+/* The end Navbar section Laticce-3  */
+/*  Hero Section Lattice 3 */
+#hero-section-third {
+    background-image: url(./images/heroImage.png);
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    display: none;
+}
+
+.hero-part-third {
+    background-color: rgba(0, 0, 0, 0.326);
+    padding-left: 150px;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.hero-part-third h1 {
+    padding-top: 250px;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif; 
+}
+
+.hero-part-third p {
+    padding: 30px 0 50px 0;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif; 
+}
+
+.hero-section-third-btn{
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 4px;
+    padding: 15px 35px;
+    transition: all 0.4s ease-in;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hero-section-third-btn:hover{
+    color: black;
+    background-color: white;
+}
+/* The end Hero Section Lattice 3 */
+/* Four Boxes Lattice 3 */
+.four-boxes-part-three{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin: 100px 50px 0 50px;
+}
+
+.four-boxes-part-three-full{
+    background-color: #1C272B;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 25px 25px 40px 25px;
+}
+
+.four-boxes-three-text h1{
+    padding-left: 10px;
+}
+
+.four-boxes-part-three-full p{
+    padding-top: 25px;
+    font-weight: 400;
+}
+
+.four-boxes-three-text{
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+@media(max-width:767px) {
+    
+}
+/* The end Four Booxes Lattice 3 */
+/* Information Under Hero */
+#under-hero-informations {
+    margin-top: 130px;
+    display: none;
+}
+
+.under-hero-part {
+    display: flex;
+    justify-content: center;
+}
+
+.under-hero-information {
+    padding-left: 80px;
+}
+
+.under-hero-information  h1{
+    font-size: 48px;
+    font-weight: 700; 
+    font-family: 'Outfit', sans-serif;
+}
+
+.under-hero-information p {
+    line-height: 35px;
+
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+/*  The end Information Under Hero */
+/* Part-text_Part-photo */
+#part-text-part-photo{
+    margin-top: 130px;
+    display: none;
+}
+
+.half-text-half-photo {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.half-text{
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+    padding: 50px 70px 70px 150px;
+    background-color: #1C272B ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.half-text h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    margin-left: -80px;
+}
+
+.half-text h2 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    margin-left: -80px;
+}
+
+.half-text-past{
+    padding-top: 40px;
+}
+
+.half-text-past h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    border-bottom: 1px solid white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.half-text-past h3:first-child {
+    position: relative;
+}
+
+.half-text-past h3:first-child::after{
+    position: absolute;
+    top: 40;
+    left: 50;
+    height: 1px;
+    background-color: white;
+}
+
+.half-text-past h3{
+    border-bottom: 1px solid white;
+}
+
+/* The end Part-text_Part-photo  */
+/* Under part-text-photo Section */
+#under-text-photo-section {
+    margin-top: 180px;
+    display: none;
+}
+
+.under-text-photo-part{
+    position: relative;
+}
+
+.under-text-photo-part h1 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 80px;
+}
+
+.under-text-photo-images{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+.under-photo-images-left{
+    margin-right: 150px;
+}
+
+.under-text-photo-texts {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    justify-content: flex-start;
+    border: 3px solid white;
+    background-color: #1C272B;
+    padding: 35px 35px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -105px;
+    left: 90px;
+}
+
+.under-text-photo-texts h1 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+}
+
+.under-text-photo-texts p{
+    padding-top: 15px;
+}
+/* The end  Under part-text-photo Section  */
+/* Numbers Section */
+#numbers-section {
+    margin-top: 250px;
+    background-color: #1C272B;
+    padding-bottom: 50px;
+    display: none;
+}
+
+#numbers-section h1 {
+    text-align: center;
+    padding: 50px 0 70px 0;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+.numbers-part {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.numbers-part h2 {
+    padding: 30px 0 20px 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.numbers-icon-text p {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Outfit', sans-serif;
+}
+/* The end Numbers Section */
+/*  Controbutors Section  */
+#controbutors-section {
+    margin: 80px 0 80px 0;
+    display: none;
+}
+
+.controbutors-parts h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+
+.controbutors-logo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.controbutors-logo img {
+    background-color: #1C272B;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.hyundai-logo{
+    padding: 25px 30px;
+
+}
+
+.sany-logo{
+    padding: 30px 30px;
+}
+
+.turonbank-logo{
+    padding: 23px 30px;
+}
+
+.uzauto-logo{
+    padding: 25px 30px;
+}
+
+.man-logo{
+    padding: 30px 30px;
+}
+/* The end Controbutors Section */
+/* Lattice 3 Contact Section */
+#contact-three-section {
+    display: none;
+}
+.contact-three-part {
+    display: flex;
+    align-items: center;
+    background-color: #1C272B;
+}
+
+.contact-three-texts{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-three-texts h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+
+.contact-three-texts h2 {
+    font-weight: 100;
+}
+
+.contact-three-top-inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs-holder{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-holder:last-child {
+    padding-left: 20px;
+}
+
+.contact-three-top-inputs-place{
+    width:350px;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.contacts-three-past-inputs{
+    margin-top: 30px;
+}
+
+.comment-input {
+    margin-top: 10px;
+    width: 720px;
+    height: 120px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+}
+
+.contact-sumbit-past{
+    margin-top: 30px;
+    padding: 15px 35px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+
+.contact-sumbit-past:hover {
+    background-color: #2a363b;
+    color: white;
+}
+/* The end Lattice 3 Contact Section */
+/*  Lattice 3 Footer Section */
+#footer-section-last-page{
+    background-image: url(./images/footer-last-image.png);
+    background-size: cover;
+    display: none;
+}
+
+.footer-last-part-full{
+    background: #1C272B;
+    mix-blend-mode: hard-light;
+}
+
+.footer-logo-text p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footer-last-part{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+.footer-category h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-category h2 {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+.footer-category a {
+    color: white ;
+    text-decoration: none;
+}
+
+.footer-contacts h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-contacts-items{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.footer-contacts-items h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 10px;
+}
+
+.footer-past-icons img  {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.footer-last-pas-p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* The end Lattice 3 Footer Section */
